@@ -1,0 +1,80 @@
+.cr:hover .img1{
+    display:none !important;
+}
+.cr:hover .img2{
+    display:block !important;
+}
+/* .car-1{
+    transition:all 2s linear;
+}
+.car-2{
+    transition-delay:all 1s linear;
+} */
+.cr .card{
+    background-image: url('../../assest/images/wat1.jpg');
+    transition:all 1s linear;
+    /* height: 400px; */
+    width: 400px;
+    background-size:cover;
+}
+
+.cr .card:hover{
+    background-image: url('../../assest/images/wat2.jpg');
+    transition:all 1s linear;
+    /* height: 400px; */
+    width: 400px;
+    background-size:cover;
+}
+.card:hover .card-img img{
+    scale: 1.1;
+}
+.card-img img{
+    transition: all 0.3s linear;
+}
+.beach-img::after{
+    content: '';
+    height: 437px;
+    width: 346px;
+    position: absolute;
+    background-color: antiquewhite;
+    bottom: -125px;
+    left: 3px;
+    z-index: -1;
+    transform: skew(123deg);
+    transition-delay: 0.5s !important;
+    transition: 0.3s linear;
+}
+.card:hover .beach-img::after{
+    z-index: 1;
+}
+.card-img1{
+    width:150px;
+    /* height:25px; */
+}
+.card .hr_line{
+    height:5px;
+    background-color: black;
+}
+.arrow{
+    top:11px;
+}
+.bg{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59); 
+    z-index: -99999;
+    /* background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(166,16,44,0.8072478991596639) 100%, rgba(168,7,253,1) 100%); */
+    /* background-color: black; */
+    /* background: rgb(2,0,36); */
+/* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,9,83,0.8072478991596639) 100%, rgba(168,7,253,1) 100%); */
+}
+.bg-1{
+    background: rgb(166,16,44);
+    background: radial-gradient(circle, rgba(166,16,44,0.8072478991596639) 27%, rgba(166,16,44,1) 31%, rgba(168,7,253,1) 100%, rgba(166,16,44,0.8072478991596639) 100%);}
+.bg-2{
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(166,16,44,0.8072478991596639) 100%, rgba(168,7,253,1) 100%);
+}
